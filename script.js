@@ -1,9 +1,9 @@
-function fibonacci(num) {
+function fibnocci(num) {
 // your code here
 	if(num === 0 || num === 1)
 		return num;
 	//recursive case
-	return fibonacci(num - 1) + fibonacci(num - 2);
+	return fibnocci(num - 1) + fibnocci(num - 2);
 }
 
-module.exports = fibonacci;
+module.exports = fibnocci;
